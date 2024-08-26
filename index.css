@@ -1,0 +1,237 @@
+/* GENERAL */
+* {
+    color: #fff;
+    margin: 0;
+    font-family: 'Turret Road', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+.content-container{
+    padding: 0 15%;
+}
+/* BACKGROUND */
+.bg-container {
+    height: 100%;
+    width: 100%;
+    background-image: url(img/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* NAVBAR */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    margin-right: 30px;
+}
+
+.menu a {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #0eaed4;
+}
+
+.menu a:hover i {
+    color: #0eaed4;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgb(225, 222, 235);
+    min-width: 200px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    left: auto;
+    right: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+/* HEADER */
+.header-container{
+    margin-top: 100px;
+}
+.header-container h1{
+    font-size: 50px;
+}
+.header-contens-container{
+    padding: 30px;
+    display: flex;
+}
+.header-left{
+    flex: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.header-left img{
+    height: 130px;
+    width: 130px;
+}
+.header-right{
+    flex: 50%;
+}
+.header-right h2{
+    padding:25px 0;
+}
+.header-right p{
+    width: 30vw;
+}
+/* MAİN */
+.main-container{
+    margin-top: 50px;
+    display: flex;
+}
+.main-left{
+    padding: 20px;
+    flex: 1;
+}
+.main-right{
+    flex: 2;
+    padding: 20px;
+}
+.main-left img{
+    width: 530px;
+    height: 560px;
+}
+.main-left button{
+    float: right;
+    margin: 50px;
+    font-size: 20px;
+    border: 3px solid  #6843EC;
+    width: 217px;
+    height: 64px;
+    border-radius: 40px;
+    background-color: black;
+}
+.main-left button:hover{
+    cursor: pointer;
+    color: #0eaed4;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
+/* SECTION1 */
+.section1-container{
+    margin-top: 80px;
+    display: flex;
+}
+.section1-right{
+    flex: 1;
+    padding: 0 40px;  
+}
+.section1-left h2{
+    font-size: 28px;
+}
+.section1-left{
+    flex: 1;
+}
+.section1-left p{
+    padding: 30px;
+}
+.section1-right ul{
+    padding: 20px;
+}
+.section1-right h2{
+    font-size: 28px;
+}
+.section1-right-menu{
+    display: flex;
+    align-items: center;
+}
+.section1-right-menu a{
+    font-size: 32px;
+    padding: 30px;
+}
+.section1-right-menu a:hover,
+.section1-right-menu a:hover i{
+    color: #0eaed4;
+}
+.section1-right-menu img{
+    width: 100px;
+    height: 100px;
+}
+/* SECTION2 */
+.section2-container{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section2-container h1,h2,p{
+    padding: 25px;
+}
+/*  FOOTER */
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.footer-form{
+    display: flex;
+    align-items: center;
+}
+.form-btn{
+    margin: 40px;
+    font-size: 20px;
+    border: 3px solid  #6843EC;
+    width: 217px;
+    height: 54px;
+    border-radius: 40px;
+    background-color: black;
+}
+.form-btn:hover{
+    cursor: pointer;
+    color: #0eaed4;
+}
+.footer-textbox{
+    width: 982px;
+    height: 42px;
+    border-radius: 30px;
+    background: #000;
+    font-size: 20px;
+}
